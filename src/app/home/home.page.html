@@ -1,0 +1,85 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      O incrível app de filmes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-searchbar class="ion-padding" placeholder="Pesquisar"></ion-searchbar>
+    <ion-card class="welcome-card ion-margin">
+      <ion-img src="/assets/images/toy-story-4.jpg" alt=""></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>Animação, Comédia</ion-card-subtitle>
+        <ion-card-title class="ion-float-left">Toy Story 4</ion-card-title>
+        <ion-chip class="ion-float-right">4.5</ion-chip>
+      </ion-card-header>
+      <ion-card-content class="ion-padding">
+        <ion-row>
+          <ion-col class="ion-justify-content-center">
+            <ion-button fill="outline" size="small" (click)="sucesso()">
+                Quero ver
+            </ion-button>
+          </ion-col>
+          <ion-col class="ion-justify-content-center">
+            <ion-button fill="outline" size="small" (click)="feedback()">
+                Já vi
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+    <ion-card class="welcome-card ion-margin">
+      <ion-img src="/assets/images/pikachu.jpg" alt=""></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>Aventura, Comédia</ion-card-subtitle>
+        <ion-card-title class="ion-float-left">Detetive Pikachu</ion-card-title>
+        <ion-chip class="ion-float-right">4.0</ion-chip>
+      </ion-card-header>
+      <ion-card-content class="ion-padding">
+        <ion-row>
+          <ion-col class="ion-justify-content-center">
+            <ion-button fill="outline" size="small" (click)="sucesso()">
+                Quero ver
+            </ion-button>
+          </ion-col>
+          <ion-col class="ion-justify-content-center">
+            <ion-button fill="outline" size="small" (click)="feedback()">
+                Já vi
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+    <ion-card class="welcome-card ion-margin">
+      <ion-img src="/assets/images/spiderverse.jpeg" alt=""></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>Animação, Ação</ion-card-subtitle>
+        <ion-card-title class="ion-float-left">Homem-Aranha no Aranhaverso</ion-card-title>
+        <ion-chip class="ion-float-right">4.9</ion-chip>
+      </ion-card-header>
+      <ion-card-content class="ion-padding">
+        <ion-row>
+          <ion-col class="ion-justify-content-center">
+            <ion-button fill="outline" size="small" (click)="sucesso()">
+                Quero ver
+            </ion-button>
+          </ion-col>
+          <ion-col class="ion-justify-content-center">
+            <ion-button fill="outline" size="small" (click)="feedback()">
+                Já vi
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+    </ion-card>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon id="icon" name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
